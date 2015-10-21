@@ -1,0 +1,107 @@
+html, body{
+        margin:0px;
+        padding:0px;
+        height:100%;
+        width:100%;
+        overflow: hidden;
+        opacity: 0.9;
+        text-decoration:none;
+}
+
+a {
+  padding:0px;
+  margin:0px;
+  text-decoration:none;
+  color:#000000;
+}
+div.nav{
+  margin:0px;
+  padding:0px;
+  text-decoration:none;
+  position:static;
+}
+ul{
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+
+li{
+  padding:0px;
+  margin:0px;
+  display: inline;
+  float: center;
+}
+
+button{
+  font-family: "Lobster", cursive;
+  border:none;
+  background:none;
+  display:center;
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:7em;
+  margin-bottom:0px;
+  padding:.5em;
+  font-size:20px;
+  vertical-align:middle;
+}
+
+button.sub:hover{
+  background-color:#AFEEEE;
+  border-radius: 100%;
+  padding:.25em;
+}
+
+div.name{
+  margin:0;
+  padding:0;
+  text-decoration:none;
+}
+
+h1{
+        padding:0px;
+        margin-top:0px;
+        margin-bottom:0px;
+        text-align:left;
+        font-family: "Lobster", cursive;
+        font-size: 45px;
+
+}
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+$icon-list: (
+github "\F300" #333333,
+);
+
+.icon {
+	font-family: 'entypo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.social__icon {
+  font-size: 1.4em;
+  color: white;
+  text-decoration: none;
+  // Remove border radius to make icons square
+  border-radius:100%;
+  width: 2.2em;
+  height: 2.2em;
+  text-align: center;
+
+  // Vertical Centering
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social__container {
+  padding: 1em;
+  font-size: 1.5em;
+}
