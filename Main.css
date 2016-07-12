@@ -53,8 +53,8 @@ li {
 }
 
 a {
-  font-family: Helvetica;
-  font-size:16px;
+  font-family:'Eczar', serif;
+  font-size:20px;
   font-weight: bold;
   text-decoration: none;
   color: #000000;
@@ -65,8 +65,10 @@ a:hover{
 }
 
 p{
+  font-family: 'Arima Madurai', cursive;
   padding-left:50px;/*What has move the writing to the right of the container*/
-  font-size: 25px;
+  font-size: 15px;
+  text-align:center;
 }
 
 img{
@@ -74,38 +76,59 @@ img{
   width:1279px;
   height:720px;
 }
+
 form {
-  background-color:#E6F5FA;
+  font-family: 'Arima Madurai', cursive;
+  background-color:transparent;
+  color:#FFFFFF;
+  position:fixed;
+  top:25%;
+  right:5%;
+  width:250px;
+}
+h3{
+  font-family: 'Tillana', cursive;
+  font-weight: 400;
+  background-color:transparent;
+  color:#FFFFFF;
+  position:fixed;
+  top: 15%;
+  right: 5%;
+  width:215px;
 }
 
 input[type=text] {
-  width: 15%;
-  padding: 12px;
+  width: 75%;
+  padding: 10px;
   margin 8px 0;
-  border: 2px solid black;
-  border-radius: 10px;
+  border: .5px solid white;
+  border-radius: 8px;
 }
 
 input[type=email]{
-  width: 20%;
-  padding: 12px;
+  width: 75%;
+  padding: 10px;
   margin 8px 0;
-  border: 2px solid black;
-  border-radius: 10px;
+  border: .5px solid white;
+  border-radius: 8px;
 }
 input[type=submit]{
-  width: 10%;
-  padding: 12px;
+  font-family: 'Arima Madurai', cursive;
+  width: 75%;
+  padding: 5px;
   margin 8px 0;
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color:#3AB7E0;
+  border: .5px solid white;
+  border-radius: 8px;
+  background-color:#9FD19F;
+  color:#FFFFFF;
+  font-size: 16px;
 }
-textarea{
-  width: 25%;
-  height: 10%;
-  padding: 12px;
+textarea {
+  width: 75%;
+  height: 50%;
+  padding: 10px;
   margin 8px 0;
-  border: 2px solid black;
-  border-radius: 10px;
+  border: .5px solid white;
+  border-radius: 8px;
 }
+
