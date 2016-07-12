@@ -1,0 +1,111 @@
+@media screen and (max-width: 1279px){
+  .container{
+    width:100%;
+  }
+  img{
+    width:100%;
+  }
+}
+/*code for users with a phone*/
+@media screen and (max-width:640px){
+  img{
+    width:100%;
+  }
+}
+
+/*setting the minimum size of site at 320 which should be enough to cover all devices*/
+@media screen and (max-width:320px){
+  width:320px;
+  img{
+    width:100%;
+  }
+}
+
+/*Code for images to be scaled properly with the rest of the site
+img{
+  width:100%;
+}*/
+
+.container {
+  width:1280px;
+  height:720px;
+  margin:0px auto;
+}
+
+/*CSS for the navigation bar*/
+ul {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: -10px;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-right: 70px;
+}
+
+a {
+  font-family: Helvetica;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  color:#c30013;
+}
+
+p{
+  padding-left:50px;/*What has move the writing to the right of the container*/
+  font-size: 25px;
+}
+
+img{
+  padding:0px;/*what separates the image from the right column section and gives it that extra space*/
+  width:1279px;
+  height:720px;
+}
+form {
+  background-color:#E6F5FA;
+}
+
+input[type=text] {
+  width: 15%;
+  padding: 12px;
+  margin 8px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+input[type=email]{
+  width: 20%;
+  padding: 12px;
+  margin 8px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+input[type=submit]{
+  width: 10%;
+  padding: 12px;
+  margin 8px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color:#3AB7E0;
+}
+textarea{
+  width: 25%;
+  height: 10%;
+  padding: 12px;
+  margin 8px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+}
