@@ -64,14 +64,14 @@ a:hover{
   color:#c30013;
 }
 
-p{
+p {
   font-family: 'Arima Madurai', cursive;
   padding-left:50px;/*What has move the writing to the right of the container*/
   font-size: 15px;
   text-align:center;
 }
 
-img{
+img {
   padding:0px;/*what separates the image from the right column section and gives it that extra space*/
   width:1279px;
   height:720px;
@@ -86,7 +86,7 @@ form {
   right:5%;
   width:250px;
 }
-h3{
+h3 {
   font-family: 'Tillana', cursive;
   font-weight: 400;
   background-color:transparent;
@@ -105,14 +105,14 @@ input[type=text] {
   border-radius: 8px;
 }
 
-input[type=email]{
+input[type=email] {
   width: 75%;
   padding: 10px;
   margin 8px 0;
   border: .5px solid white;
   border-radius: 8px;
 }
-input[type=submit]{
+input[type=submit] {
   font-family: 'Arima Madurai', cursive;
   width: 75%;
   padding: 5px;
