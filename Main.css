@@ -35,6 +35,7 @@ img{
   width:1280px;
   height:42px;
   background-color:#FFFFFF;
+  position:fixed;
 }
 
 /*CSS for the navigation bar*/
