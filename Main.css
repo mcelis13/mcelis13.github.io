@@ -45,13 +45,12 @@ ul {
     width: 1280px;
     margin-bottom: 0px;
     padding-top: 10px;
-    background-color: #FFFFFF;
+    background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 li {
-  width: 1280px;
   list-style-type: none;
   display: inline;
   margin-left: 70px;
@@ -60,7 +59,6 @@ li {
 }
 
 a {
-  width: 1280px;
   font-family: 'Poiret One', cursive;
   font-size:20px;
   font-weight: bold;
