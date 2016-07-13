@@ -44,7 +44,6 @@ ul {
     position: fixed;
     width: 1280px;
     margin-bottom: 0px;
-    margin-left: -20px;
     padding-top: 10px;
     background-color: #FFFFFF;
     background-size: cover;
@@ -52,6 +51,7 @@ ul {
 }
 
 li {
+  width: 1280px;
   list-style-type: none;
   display: inline;
   margin-left: 70px;
