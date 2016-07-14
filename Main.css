@@ -115,7 +115,7 @@ h1{
 }
 h2{
   font-family: 'Poiret One', cursive;
-  font-weight: 400;
+  font-weight: bolder;
   background-color:transparent;
   color:#FFFFFF;
   position:fixed;
@@ -124,7 +124,7 @@ h2{
 }
 h3{
   font-family: 'Poiret One', cursive;
-  font-weight: 400;
+  font-weight: bolder;
   background-color:transparent;
   color:#FFFFFF;
   position:fixed;
