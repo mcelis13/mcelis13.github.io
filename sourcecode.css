@@ -1,0 +1,428 @@
+@media screen and (max-width: 1600px){
+  .container{
+    width:100%;
+  }
+  img{
+    width:100%;
+  }
+}
+/*code for users with a phone*/
+@media screen and (max-width:640px){
+  img{
+    width:100%;
+  }
+}
+
+/*setting the minimum size of site at 320 which should be enough to cover all devices*/
+@media screen and (max-width:320px){
+  width:320px;
+  img{
+    width:100%;
+  }
+}
+
+/*Code for images to be scaled properly with the rest of the site
+img{
+  width:100%;
+}*/
+
+.container {
+  width:1600px;
+  height:768px;
+  margin:0px auto;
+  position: relative;
+}
+.nav {
+  width:100%;
+  height:42px;
+}
+
+/*CSS for the navigation bar*/
+ul {
+    top:0px;
+    left:0px;
+    margin-top:0px;
+    height: 40px;
+    position: fixed;
+    width: 1600px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a {
+  font-family: 'Poiret One', cursive;
+  font-size:20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  color:#9FD19F;
+}
+
+p{
+  position:fixed;
+  top:90%;
+  right:40%;
+  font-family: 'Arima Madurai', cursive;
+  padding-left:50px;/*What has move the writing to the right of the container*/
+  font-size: 15px;
+  text-align:center;
+}
+
+img{
+  top:0px;
+  margin-left: -20px;
+  margin-bottom: 0px;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  z-index: -1;
+}
+
+form {
+  font-family: 'Arima Madurai', cursive;
+  background-color:transparent;
+  color:#FFFFFF;
+  position:fixed;
+  top:25%;
+  right:10%;
+  width:250px;
+}
+h1{
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  background-color:transparent;
+  color:#FFFFFF;
+  position:fixed;
+  top: 20%;
+  left: 10%;
+}
+h2{
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  background-color:transparent;
+  color:#FFFFFF;
+  position:fixed;
+  top: 50%;
+  left: 10%;
+}
+
+h3{
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  background-color:transparent;
+  color:#FFFFFF;
+  position:fixed;
+  top: 20%;
+  left: 15%;
+  width:215px;
+}
+.downloads {
+  postion:fixed;
+  top:75%;
+  left:2%;
+  width:45%;
+}
+
+.save {
+  font-family: 'Poiret One', cursive;
+  background-color:transparent;
+  position:fixed;
+  color:#FFFFFF;
+  top: 58%;
+  left: 5%;
+  width:15%;
+}
+h5 {
+  font-family: 'Poiret One', cursive;
+  background-color:transparent;
+  position:fixed;
+  color:#FFFFFF;
+  top: 60%;
+  left: 5%;
+  width:45%;
+}
+.indexlink {
+  font-weight: lighter;
+  background-color:transparent;
+  position:fixed;
+  color:#FFFFFF;
+  top: 70%;
+  left: 5%;
+  width:55%;
+
+}
+
+footer{
+  color:#FFFFFF;
+}
+.icon {
+  width:175px;
+  height:175px;
+  float:left;
+  position:fixed;
+  top: 40%;
+  left: 8%;
+  border-left:0;
+  border-top:0;
+}
+.file {
+  width:80px;
+  height:108px;
+  background:#66C0DE;
+  position:absolute;
+  left:50%;
+  margin-left:-40px;
+  top:50%;
+  margin-top:-54px;
+  border-radius:6px;
+  box-shadow: 0 2px 0 0px rgba(0,0,0,0.25), inset 0 1px 0 0 rgba(255,255,255,0.2);
+}
+.file:before{
+  content:"";
+  width:25px;
+  height:25px;
+  background:#66C0DE;
+  position:absolute;
+  right:0;
+  top:0;
+  border-radius:6px;
+}
+
+.file .holes {
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  left:10px;
+  top:50%;
+  margin-top:-4px;
+}
+.file .holes:before {
+  content:"";
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  top:-30px;
+}
+.file .holes:after {
+  content:"";
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  top:30px;
+}
+.file .lines {
+  width:34px;
+  height:9px;
+  border-top: 5px solid rgba(255,255,255,0.5);
+  border-bottom: 5px solid rgba(255,255,255,0.5);
+  position:absolute;
+  left:28px;
+  top:25px;
+}
+.file .lines:after {
+  content:"C++";
+  width:34px;
+  height:22px;
+  border-top: 5px solid rgba(255,255,255,0.5);
+  border-bottom: 5px solid rgba(255,255,255,0.5);
+  position:absolute;
+  top:25px;
+  font-size: 18px;
+  font-family:'Poiret One', cursive;
+  font-weight:bolder;
+}
+.icon2 {
+  width:175px;
+  height:175px;
+  float:left;
+  position:fixed;
+  top: 40%;
+  left: 18%;
+  border-left:0;
+  border-top:0;
+}
+.file2 {
+  width:80px;
+  height:108px;
+  background:#F03D29;
+  position:absolute;
+  left:50%;
+  margin-left:-40px;
+  top:50%;
+  margin-top:-54px;
+  border-radius:6px;
+  box-shadow: 0 2px 0 0px rgba(0,0,0,0.25), inset 0 1px 0 0 rgba(255,255,255,0.2);
+}
+.file2:before{
+  content:"";
+  width:25px;
+  height:25px;
+  background:transparent;
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+.file2 .holes {
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  left:10px;
+  top:50%;
+  margin-top:-4px;
+}
+.file2 .holes:before {
+  content:"";
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  top:-30px;
+}
+.file2 .holes:after {
+  content:"";
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  top:30px;
+}
+.file2 .lines {
+  width:34px;
+  height:9px;
+  border-top: 5px solid rgba(255,255,255,0.5);
+  border-bottom: 5px solid rgba(255,255,255,0.5);
+  position:absolute;
+  left:28px;
+  top:25px;
+}
+.file2 .lines:after {
+  width:34px;
+  height:22px;
+  border-top: 5px solid rgba(255,255,255,0.5);
+  border-bottom: 5px solid rgba(255,255,255,0.5);
+  position:absolute;
+  top:23px;
+  font-family:'Poiret One', cursive;
+  font-weight: bolder;
+  font-size: 18px;
+  content:"Ruby";
+}
+.icon3 {
+  width:175px;
+  height:175px;
+  float:left;
+  position:fixed;
+  top: 40%;
+  left: 28%;
+  border-left:0;
+  border-top:0;
+}
+.file3 {
+  width:80px;
+  height:108px;
+  background:#8FD19F;
+  position:absolute;
+  left:50%;
+  margin-left:-40px;
+  top:50%;
+  margin-top:-54px;
+  border-radius:6px;
+  box-shadow: 0 2px 0 0px rgba(0,0,0,0.25), inset 0 1px 0 0 rgba(255,255,255,0.2);
+}
+.file3:before{
+  content:"";
+  width:25px;
+  height:25px;
+  background:#8FD19F;
+  position:absolute;
+  right:0;
+  top:0;
+  border-radius:6px;
+}
+
+.file3 .holes {
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  left:10px;
+  top:50%;
+  margin-top:-4px;
+}
+.file3 .holes:before {
+  content:"";
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  top:-30px;
+}
+.file3 .holes:after {
+  content:"";
+  width:8px;
+  height:8px;
+  background:#37353a;
+  border-radius:50%;
+  box-shadow: inset 0 2px 0 0px rgba(0,0,0,0.25), 0 1px 0 0 rgba(255,255,255,0.2);
+  position:absolute;
+  top:30px;
+}
+.file3 .lines {
+  width:34px;
+  height:9px;
+  border-top: 5px solid rgba(255,255,255,0.5);
+  border-bottom: 5px solid rgba(255,255,255,0.5);
+  position:absolute;
+  left:28px;
+  top:25px;
+}
+.file3 .lines:after {
+  content:"Java";
+  width:34px;
+  height:20px;
+  border-top: 5px solid rgba(255,255,255,0.5);
+  border-bottom: 5px solid rgba(255,255,255,0.5);
+  position:absolute;
+  top:25px;
+  font-size: 16px;
+  font-family:'Poiret One', cursive;
+  font-weight:bolder;
+}
