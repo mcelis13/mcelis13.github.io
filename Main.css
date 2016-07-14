@@ -1,4 +1,4 @@
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 1600px){
   .container{
     width:100%;
   }
@@ -27,7 +27,7 @@ img{
 }*/
 
 .container {
-  width:1366px;
+  width:1600px;
   height:768px;
   margin:0px auto;
   position: relative;
@@ -44,7 +44,7 @@ ul {
     margin-top:0px;
     height: 40px;
     position: fixed;
-    width: 1366px;
+    width: 1600px;
     margin-bottom: 0px;
     padding-top: 10px;
     background-color: #FFFFFF;
