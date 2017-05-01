@@ -55,6 +55,7 @@ ul {
 li {
   list-style-type: none;
   display: inline;
+  top: 30%;
   margin-left: 0%;
   margin-right: 5%;
   padding-left: 0%;
