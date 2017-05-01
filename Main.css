@@ -51,11 +51,6 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
 }
-button {
-  position: fixed;
-  top: 20%;
-  left: 10%;
-}
 
 li {
   list-style-type: none;
@@ -212,5 +207,10 @@ textarea {
   margin 8px 0;
   border: .5px solid white;
   border-radius: 8px;
+}
+button {
+  position: fixed;
+  top: 20%;
+  left: 10%;
 }
 
