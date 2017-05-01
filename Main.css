@@ -209,4 +209,11 @@ textarea {
   border: .5px solid white;
   border-radius: 8px;
 }
-
+button {
+  position:fixed;
+  top:90%;
+  right:30%;
+  text-align:center;
+  padding-left:50px;
+}
+  
