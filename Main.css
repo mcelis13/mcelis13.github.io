@@ -213,6 +213,9 @@ button {
   top: 70%;
   left: 10%;
   display: inline;
-  padding: 10px;
+  margin-left: 0%;
+  margin-right: 5%;
+  padding-left: 0%;
+  padding-right: 5%;
 }
 
