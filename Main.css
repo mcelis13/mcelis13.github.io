@@ -133,7 +133,7 @@ h3{
   width:215px;
 }
 .downloads {
-  postion:fixed;
+  position:fixed;
   top:75%;
   left:2%;
   width:45%;
@@ -209,8 +209,14 @@ textarea {
   border-radius: 8px;
 }
 button {
-  position: fixed;
-  top: 20%;
+  font-family: 'Poiret One', cursive;
+  font-size:20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  background-color:transparent;
+  position:fixed;
+  top: 50%;
   left: 10%;
 }
 
