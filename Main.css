@@ -76,7 +76,7 @@ a:hover{
 
 p{
   position:fixed;
-  top:80%;
+  top: 90%;
   right:40%;
   font-family: 'Arima Madurai', cursive;
   padding-left:50px;/*What has move the writing to the right of the container*/
@@ -208,6 +208,9 @@ textarea {
   margin 8px 0;
   border: .5px solid white;
   border-radius: 8px;
+}
+button{
+  padding-left: 0%;
 }
 
   
