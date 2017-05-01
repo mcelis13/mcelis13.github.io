@@ -52,7 +52,8 @@ ul {
     background-repeat: no-repeat;
 }
 button {
-  top: 10%;
+  position: fixed;
+  top: 20%;
   left: 10%;
 }
 
