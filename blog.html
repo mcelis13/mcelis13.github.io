@@ -27,7 +27,7 @@ Okay now, click on your Desktop and right click to make a new folder.  Name your
 There you can enter the command, (atom .)  and it will open up your directory with the two new files included.
 
 Since this tutorial will focus on the getting our API set up, I'm not going to go into detail about what is going on in the HTML file for right now.  
-
+<!--
 (copy and paste the code below into the index.html file)
 	    
 
@@ -42,8 +42,9 @@ Since this tutorial will focus on the getting our API set up, I'm not going to g
     <script src='index.js'></script>
   </body>
 </html>
-
-Now let's move onto the index.js file.
+-->
+Now let's move onto the index.js file
+<!--
 (copy and paste the code below into the index.js file)
 
 var request = new XMLHttpRequest(); 
@@ -54,7 +55,7 @@ request.onload = function () {
 };
 
 request.send();
-
+-->
 Now let's take a look at what happening in the code in index.js.  
 
 First, we create a variable called a request that will hold our XMLHttpRequest object.  This new object will create a new HTTP request. 
@@ -66,7 +67,7 @@ Then, we set request.onload to a function that will allow us to see and manipula
 Finally, we finish our request with request.send().  And that's pretty much it! You have officially accessed an API at this point. Congrats!  
 
 But there's no fun in accessing the API if we can't manipulate the data, play around with and see it.  So let's do that now. 
-
+<!--
 Type the code below into your  request.onload = function(){ the code below goes in between these brackets } 
 
   const arrayOfObjs = JSON.parse(this.response);
@@ -88,7 +89,7 @@ Type the code below into your  request.onload = function(){ the code below goes 
   }else{
     console.log("There was an error");
   }
-
+-->
 Now let's go over the code above.
 
 The first thing we did was create a constant variable named arrayOfObjs and assigned it our JSON parse function because once it is passed the  XMLHttp response as its parameter it will return an array of objects.  
@@ -106,7 +107,7 @@ You can also go to Chrome -> view -> Developer -> Developer Tools.
 Go to the console tab and you will see the article titles we have asked it to list with our console.log line in our code above.  
 
 Now we are going to access the article images and URLs that can take us to the full article.
-
+<!--
 (copy the code below the console.log(h1) line in the code above)
 
 //link to the article image and creating a new element so we can see it on our browser 
@@ -127,11 +128,11 @@ Now we are going to access the article images and URLs that can take us to the f
 
       //add this line so that when you click on the image it will take you to the full article
       a.appendChild(img);
-
+-->
 At this point, you can refresh your browser, use 'inspect' and go to the console tab. You will see the 'h1', 'img', and 'a' variables on your console.
 
 To see the titles and images on your browser you will need to add some additional javascript code at the top of your index.js file.
-
+<!--
 (Type this at the very top of your index.js file.)
 
 const app = document.getElementById('content');
@@ -144,7 +145,7 @@ app.appendChild(h1);
 app.appendChild(a);
 app.appendChild(img);
 app.appendChild(container);
-
+-->
 You did it!  You can now go and refresh your browser. You will be able to see the article titles, images and even click on images that will take you to the National Geographic website to see the full article!  
 
 (please read the National Geographic API guidelines as it should not be used for commercial use)<p>
