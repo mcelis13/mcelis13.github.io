@@ -17,15 +17,15 @@
         </div>
     </div>
     <h1>Connecting to the National Geograpic API</h1>
-    <h4>Before we get started, please make sure you have an editor you can work on, you can download Atom for free at https://atom.io/ if you need an editor.  You will also need to be able to access your terminal and understand basic terminal commands. This article will allow you to access the National Geographic API and be able to view the data on your browser using very simple HTML, CSS, and Javascript.
+    <h4>Before we get started, please make sure you have an editor you can work on, you can download Atom for free at https://atom.io/ if you need an editor.  You will also need to be able to access your terminal and understand basic terminal commands. This article will allow you to access the National Geographic API and be able to view the data on your browser using very simple HTML, CSS, and Javascript. <br/> </br>
 
 Today I'm going to walk you through on how to access the National Geographic API (because who doesn't love National Geographic! Right?).   So what is an API? API stands for Application Programming Interface which is just a fancy way of saying, an application that enables two websites to share information.  
-
+<br/>
 To access an API you have to request a key.  To get National Geographics API key go to, https://newsapi.org/s/national-geographic-api. Once you get there, click on the blue button that says, "Get API key to start searching National Geographic".  It will take you to a page to set up your account where you will enter your name, e-mail address, and a password.  It will then assign you a key; the key will be a long string of numbers and letters.   Copy that key and paste it somewhere secure (you'll need it later).
-
+<br/>
 Okay now, click on your Desktop and right click to make a new folder.  Name your new folder, "national_geographic".  Now let's go to our terminal. Once you are in your terminal make sure you are in the national-geographic directory.  Now make two new files, (touch index.js) and (touch index.html).
 There you can enter the command, (atom .)  and it will open up your directory with the two new files included.
-
+<br/>
 Since this tutorial will focus on the getting our API set up, I'm not going to go into detail about what is going on in the HTML file for right now.  
 <!--
 (copy and paste the code below into the index.html file)
@@ -43,6 +43,7 @@ Since this tutorial will focus on the getting our API set up, I'm not going to g
   </body>
 </html>
 -->
+<br/>
 Now let's move onto the index.js file
 <!--
 (copy and paste the code below into the index.js file)
@@ -56,16 +57,17 @@ request.onload = function () {
 
 request.send();
 -->
+<br/>
 Now let's take a look at what happening in the code in index.js.  
-
+<br/>
 First, we create a variable called a request that will hold our XMLHttpRequest object.  This new object will create a new HTTP request. 
-
+<br/>
 Next, we use request.open to get our URL (This is where we tell our request object what it is we are looking for. You can find this link at, https://newsapi.org/s/national-geographic-api ).
-
+<br/>
 Then, we set request.onload to a function that will allow us to see and manipulate the HTTP response we get back.  
-
+<br/>
 Finally, we finish our request with request.send().  And that's pretty much it! You have officially accessed an API at this point. Congrats!  
-
+<br/>
 But there's no fun in accessing the API if we can't manipulate the data, play around with and see it.  So let's do that now. 
 <!--
 Type the code below into your  request.onload = function(){ the code below goes in between these brackets } 
@@ -90,23 +92,25 @@ Type the code below into your  request.onload = function(){ the code below goes 
     console.log("There was an error");
   }
 -->
+<br/>
 Now let's go over the code above.
-
+<br/>
 The first thing we did was create a constant variable named arrayOfObjs and assigned it our JSON parse function because once it is passed the  XMLHttp response as its parameter it will return an array of objects.  
-
+<br/>
 We don't need all the information contained in our arrayOfObjs variable. So, we created a constant variable named articlesArray to store only the article objects that we need. 
-
+<br/>
 Our next line of code is an if-else statement, if the response does not return an error response (400) then we iterate through the articlesArray variable.   Otherwise, it prints out a message saying, "There was an error". 
-
+<br/>
 Now we get to the fun part, actually seeing our data.  We won't be able to see our data in the browser yet, but we will be able to open our file in our browser. 
-
+<br/>
  We can go to Chrome -> File ->Open File -> national_geographic -> index.html.  This will open the HTML file in your chrome browser you will see a blank page.  Don't panic!  Right-click, and click 'inspect' on the drop-down menu.  
-
+<br/>
 You can also go to Chrome -> view -> Developer -> Developer Tools.
-
+<br/>
 Go to the console tab and you will see the article titles we have asked it to list with our console.log line in our code above.  
-
+<br/>
 Now we are going to access the article images and URLs that can take us to the full article.
+<br/>
 <!--
 (copy the code below the console.log(h1) line in the code above)
 
@@ -129,9 +133,11 @@ Now we are going to access the article images and URLs that can take us to the f
       //add this line so that when you click on the image it will take you to the full article
       a.appendChild(img);
 -->
+<br/>
 At this point, you can refresh your browser, use 'inspect' and go to the console tab. You will see the 'h1', 'img', and 'a' variables on your console.
-
+<br/>
 To see the titles and images on your browser you will need to add some additional javascript code at the top of your index.js file.
+<br/>
 <!--
 (Type this at the very top of your index.js file.)
 
@@ -146,8 +152,9 @@ app.appendChild(a);
 app.appendChild(img);
 app.appendChild(container);
 -->
+<br/>
 You did it!  You can now go and refresh your browser. You will be able to see the article titles, images and even click on images that will take you to the National Geographic website to see the full article!  
-
+<br/>
 (please read the National Geographic API guidelines as it should not be used for commercial use)<h4>
       
       <footer class="date">
