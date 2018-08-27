@@ -113,7 +113,7 @@ h4{
   font-family: 'Arima Madurai', cursive;
   padding-left:50px;/*What has move the writing to the right of the container*/
   font-size: 15px;
-  text-align:center;
+  text-align:left;
 }
 
 .downloads {
